@@ -24,7 +24,7 @@ fetch('https://api.themoviedb.org/3/movie/top_rated?api_key=6151eecd32d77cd15b6a
             movieList.appendChild(movieItem);
 
             //Evento para ver la pelicula en detalle cuando se haga click en el boton 
-            movieItem.addEventListener ('click', () => {
+            movieItem.addEventListener('click', () => {
                 console.log(el);
                 //on hover show movie information inside image with css class
                 movieItem.innerHTML = `
@@ -37,9 +37,9 @@ fetch('https://api.themoviedb.org/3/movie/top_rated?api_key=6151eecd32d77cd15b6a
 
 
         `;
-            }); 
+            });
 
-            movieItem.addEventListener ('mouseleave', () => {
+            movieItem.addEventListener('mouseleave', () => {
                 console.log(el);
                 //on hover show movie information inside image with css class
                 movieItem.innerHTML = `
@@ -48,7 +48,7 @@ fetch('https://api.themoviedb.org/3/movie/top_rated?api_key=6151eecd32d77cd15b6a
                 <h3 class="movie-rating"><i class="fa-solid fa-star fa-xs"></i>Rating: ${el.vote_average}</h3>
                 <button id="detail-btn" class="btn">Ver detalle</button>
         `;
-            }); 
+            });
 
 
 
@@ -57,29 +57,3 @@ fetch('https://api.themoviedb.org/3/movie/top_rated?api_key=6151eecd32d77cd15b6a
         );
     }
     );
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
