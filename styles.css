@@ -1,0 +1,37 @@
+.row {
+    row-gap: 50px;
+}
+
+.movies-grid {
+    padding: 75px 75px;
+}
+
+.movie-title {
+    font-family: 'Rubik', sans-serif;
+    font-size: 18px;
+    padding-top: 15px
+}
+
+.movie-extract {
+    font-family: 'Poppins', sans-serif;
+    font-size: 13px;
+}
+
+.btn {
+    font-family: 'Poppins', sans-serif !important;
+    font-weight: 500 !important;
+    border-radius: 0 !important;
+    display: flex;
+    justify-content: center;
+    border: solid !important;
+    border-width: 1px;
+}
+
+.show {
+    display: block;
+}
+
+.hover-movie {
+    background-color: black;
+    transition:  all 0.5s ease-in-out;
+}
