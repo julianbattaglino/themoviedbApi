@@ -14,7 +14,7 @@ fetch('https://api.themoviedb.org/3/movie/top_rated?api_key=6151eecd32d77cd15b6a
             const movieList = document.getElementById('movie-list');
             const movieItem = document.createElement('div');
             movieList.classList.add('row');
-            movieItem.classList.add('col-12', 'col-md-4', 'col-xl-3');
+            movieItem.classList.add('col-12', 'col-md-6', 'col-xl-3');
             movieItem.innerHTML = `
                 <img src="https://image.tmdb.org/t/p/w500/${el.poster_path}" class="img-fluid">
                 <h2 class="movie-title">${el.title}</h2>
