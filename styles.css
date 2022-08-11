@@ -26,6 +26,13 @@ h1.title {
     font-size: 18px;
     padding-top: 15px
 }
+.movie-rating {
+    font-family: 'Poppins', sans-serif;
+    font-size: 18px;
+}
+.fa-xs {
+    margin-right: 5px;
+}
 
 .movie-extract {
     font-family: 'Poppins', sans-serif;
@@ -46,8 +53,10 @@ h1.title {
     display: block;
 }
 
-.hover-movie {
-    background-color: black;
+article.movie-detail {
+    padding: 25px;
+    background-color: #ECECEC;
+    box-shadow: 0 4px 6px rgb(0 0 0 / 40%);
     transition:  all 0.5s ease-in-out;
 }
 
